@@ -1,0 +1,27 @@
+.cyber-bg {
+  min-height: 100vh;
+  background: #020617;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+
+  animation: moveGrid 20s linear infinite;
+}
+
+@keyframes moveGrid {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 40px;
+  }
+}
+.cyber-title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #93c5fd;
+
+  text-shadow: 0 0 6px rgba(59,130,246,0.6);
+}
